@@ -1,38 +1,5 @@
-# Heroku Static Provider
+# Demo for ndl-labsearch-client
 
-Static site provider for Heroku.
+このリポジトリは[ndl-labsearch-client](https://github.com/ineku2/ndl-labsearch-client)のデモ用のリポジトリです。
 
-
-## Installation
-
-You need sign-in or sign-up to Heroku.
-
-    $ git clone https://github.com/nulltask/heroku-static-provider.git my-site
-    $ cd my-site
-    $ heroku create
-    $ git push -u heroku master
-    $ heroku open
-
-## Deployment
-
-Add or update files in `/public`.
-
-    $ git add .
-    $ git commit -a -m 'some commit message'
-    $ git push heroku master
-    $ heroku open
-
-## Notes
-
-### Adding Basic Auth
-
-	$ heroku config:set USER=username
-	$ heroku config:set PASS=password
-
-### Screencast
-
-  * https://vimeo.com/71315109
-
-## License
-
-MIT
+[Heroku Static Provider](https://github.com/ineku2/ndl-labsearch-client-demo)を使用しています。
